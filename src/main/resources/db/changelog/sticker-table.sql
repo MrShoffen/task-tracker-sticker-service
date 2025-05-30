@@ -13,3 +13,6 @@ CREATE TABLE IF NOT EXISTS stickers
     workspace_id UUID        NOT NULL,
     task_id      UUID        NOT NULL
 );
+
+
+CREATE INDEX IF NOT EXISTS stickers_workspace_id_idx ON stickers (workspace_id);
