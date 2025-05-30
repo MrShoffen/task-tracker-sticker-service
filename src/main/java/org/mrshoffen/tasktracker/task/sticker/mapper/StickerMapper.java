@@ -11,7 +11,7 @@ import java.util.UUID;
 @Mapper(componentModel = MappingConstants.ComponentModel.SPRING)
 public interface StickerMapper {
 
-    Sticker toEntity(StickerCreateDto stickerCreateDto, UUID userId, UUID workspaceId, UUID deskId, UUID taskId);
+    Sticker toEntity(StickerCreateDto stickerCreateDto, UUID userId, UUID workspaceId,   UUID taskId);
 
     StickerResponseDto toDto(Sticker sticker);
 }

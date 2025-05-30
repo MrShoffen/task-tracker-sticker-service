@@ -40,10 +40,6 @@ public class Sticker {
     @Column("workspace_id")
     private UUID workspaceId;
 
-    @Column("desk_id")
-    private UUID deskId;
-
-
     @Column("task_id")
     private UUID taskId;
 }
